@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>KeyServlet</servlet-name>
+        <servlet-class>KeyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>KeyServlet</servlet-name>
+        <url-pattern>/hi</url-pattern>
+    </servlet-mapping>
+</web-app>
